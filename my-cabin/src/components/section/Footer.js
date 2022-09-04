@@ -1,10 +1,11 @@
 import React from 'react'
+import '../css/Contact.css'
 
 function Footer() {
   return (
   
     <div className='container'>
-          <center><h1>GSPANN</h1></center>
+          <center><h1 className='namefooter'>@GSPANN</h1></center>
         <div className="row">
     <div className="col-2">
       <h5>Services</h5>

@@ -26,6 +26,7 @@ export class Cart extends Component {
                                 <div className="box">
                                     <div className="row">
                                         <h2>{item.title}</h2>
+                                        <p>{item.Newcabin}</p>
                                         <span>TeamSize:{item.price * item.count}</span>
                                     </div>
                                     {/* <Colors colors={item.colors}/> */}
@@ -42,8 +43,8 @@ export class Cart extends Component {
                         ))
                     }
                     <div className="total">
-                        <Link to="/payment">Payment</Link>
-                        <h3>Total: ${total}</h3>
+                        <Link to="/payment">Thank you</Link>
+                        <h3>TeamSize: {total}</h3>
                     </div>
                 </>
                 )

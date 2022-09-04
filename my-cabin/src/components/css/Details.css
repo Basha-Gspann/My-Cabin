@@ -48,3 +48,18 @@
     padding: 10px 25px;
     display: inline-block;
 }
+.detailspage{
+    background: url('../../components/section/contimg.jpg');
+    height: 20rem;
+    color: aliceblue;
+}
+.detailspage h1{
+    color: white;
+    font-weight: 600;
+    padding: 20px 46px;
+}
+.detailspage p{
+    color: white;
+    padding-left: 55px;
+   
+}

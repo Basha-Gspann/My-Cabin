@@ -32,6 +32,11 @@ export class Details extends Component {
         const {addCart} = this.context;
         return (
             <>
+            <div className='detailspage'>
+            <h1>Have questions? We’re here <br />to help.</h1>
+        <p>Thanks for your interest in GSPANN. Below are
+          several ways to connect <br />with us. We look forward to hearing from you!</p>
+            </div>
                 {
                     product.map(item =>(
                         <div className="details" key={item._id}>
@@ -43,6 +48,7 @@ export class Details extends Component {
                                 </div>
                                 {/* <Colors colors={item.colors}/> */}
                                 <p>{item.description}</p>
+                                <p>{item.Newcabin}</p>
                                 <p>{item.content}</p>
                                 <Link to="/cart" className="cart" onClick={() => addCart(item._id)}>
                                     Book Cabin

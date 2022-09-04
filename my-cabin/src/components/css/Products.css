@@ -4,6 +4,9 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.cabindropdown{
+    float:right;
+}
 .card{
     min-width: 300px;
     min-height: 400px;
