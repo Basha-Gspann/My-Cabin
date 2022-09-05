@@ -27,25 +27,25 @@ export class Cart extends Component {
                                     <div className="row">
                                         <h2>{item.title}</h2>
                                         <p>{item.Newcabin}</p>
-                                        <span>TeamSize:{item.price * item.count}</span>
+                                        <span>TeamSize:{item.capacity * item.count}</span>
                                     </div>
                                     {/* <Colors colors={item.colors}/> */}
                                     <p>{item.description}</p>
                                     <p>{item.content}</p>
-                                    <div className="amount">
+                                    {/* <div className="amount">
                                         <button className="count" onClick={() => reduction(item._id)}> - </button>
                                         <span>{item.count}</span>
                                         <button className="count" onClick={() => increase(item._id)}> + </button>
-                                    </div>
+                                    </div> */}
                                 </div>
                                 <div className="delete" onClick={() => removeProduct(item._id)}>X</div>
                             </div>
                         ))
                     }
-                    <div className="total">
+                    {/* <div className="total">
                         <Link to="/payment">Thank you</Link>
                         <h3>TeamSize: {total}</h3>
-                    </div>
+                    </div> */}
                 </>
                 )
             }

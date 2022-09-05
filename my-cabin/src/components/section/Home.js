@@ -1,10 +1,12 @@
 import React from 'react'
+import Products from './Products'
 // import abc from '../section/two.jpg'
 //  import xyz from './tree.webp'
 //  import mno from './nat.webp'
 
 function Home() {
   return (
+    <>
     <div>
       <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-indicators">
@@ -45,6 +47,8 @@ function Home() {
         </button>
       </div>
     </div>
+    <Products/>
+    </>
   )
 }
 
