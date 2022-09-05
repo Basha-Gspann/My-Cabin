@@ -40,11 +40,12 @@ export class Products extends Component {
                                     <h3>
                                         <Link to={`/product/${product._id}`}>{product.title}</Link>
                                     </h3>
-                                    <span>TeamSize:{product.price}</span>
-                                    <p>{product.description}</p>
-                                    
-
+                                    <span>TeamSize:{product.capacity}</span>
+                                    <p>{product.Newcabin}</p>
+{/*                                     
+                                    <Link to={`/product/${product._id}`}> */}
                                     <button onClick={() => addCart(product._id)}>Book Now</button>
+                                    {/* </Link> */}
                                 </div>
                             </div>
                         ))
