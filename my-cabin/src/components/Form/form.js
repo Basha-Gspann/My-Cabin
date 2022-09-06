@@ -45,8 +45,14 @@ function FormData() {
         <div className="myform">
             <h2>Form data to Firebase Database</h2>
             <form className="form" onSubmit={handleSubmit}>
-                <div className="form-group">
+            <div className="form-group">
                     <label>Cabin Name</label>
+                </div>
+                <div className="form-group">
+                    <label>Cabin Size</label>
+                </div>
+                <div className="form-group">
+                    <label>Name</label>
                     <input
                         placeholder="Cabin Name"
                         value={name}
@@ -55,7 +61,7 @@ function FormData() {
                     />
                 </div>
                 <div className="form-group">
-                    <label>Capacity</label>
+                    <label>Designatio</label>
                     <input
                         placeholder="Capacity"
                         value={capacity}
@@ -63,7 +69,7 @@ function FormData() {
                         className="form-control"
                     />
                 </div>
-                <div className="form-group">
+                {/* <div className="form-group">
                 <label>Power Available</label>
                     <div class="form-check form-check-inline">
                         
@@ -78,9 +84,9 @@ function FormData() {
                             onChange={(e) => setPower(e.target.value)}
                         /> No
                     </div>
-                </div>
+                </div> */}
                 <div className="form-group">
-                    <label>Internet Ports Available</label>
+                    <label>Email</label>
                     <input
                         placeholder="Number of ports"
                         value={ports}
