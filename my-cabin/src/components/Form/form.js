@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { db } from "./firebase";
 import DateTimePicker from 'react-datetime-picker';
 
+import Details from "../section/Details";
+
 function FormData() {
     const [name, setName] = useState("");
     const [capacity, setCapacity] = useState("");
@@ -43,6 +45,7 @@ function FormData() {
 
     return (
         <div className="myform">
+            <Details/>
             <h2>Form data to Firebase Database</h2>
             <form className="form" onSubmit={handleSubmit}>
             <div className="form-group">

@@ -14,7 +14,7 @@ export class Products extends Component {
                 <div>
                     <center><h3>Over 10+ Instantly Bookable</h3> </center>
                 </div>
-                <div>
+                {/* <div>
 
 
                     SELECT DATE:<input type="datetime-local" className='page1' />
@@ -26,7 +26,7 @@ export class Products extends Component {
                             <option value="opel">cabin_222</option>
                             <option value="audi">cabin_333</option>
                         </select></div>
-                </div>
+                </div> */}
 
                 <div id="product">
 
