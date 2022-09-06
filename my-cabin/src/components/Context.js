@@ -135,7 +135,7 @@ export class DataProvider extends Component {
                 "content": "FEATURES: Ac, Light, Capacity, Wifi access, Projector, Board, Marker, Landline",
                 "capacity": 7,
                 "Teamsize":"four",
-                "Teamsize":"four",
+               
                 "description":"The regulations state that every room where people work must have sufficient floor area, height and unoccupied space for the purpose of health, safety and welfare. This means that employees must be provided with enough space to access workstations and move around freely in the room in which they work.",
                 "count": 1
             }
