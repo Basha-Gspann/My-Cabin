@@ -41,7 +41,7 @@ export class Products extends Component {
                                         <Link to={`/product/${product._id}`}>{product.title}</Link>
                                     </h3>
                                     <span>TeamSize:{product.capacity}</span>
-                                    <p>{product.description}</p>
+                                    <p>{product.Newcabin}</p>
 {/*                                     
                                     <Link to={`/product/${product._id}`}> */}
                                     <button onClick={() => addCart(product._id)}>Book Now</button>

@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import {DataContext} from '../Context'
 import {Link} from 'react-router-dom'
-// import Colors from './Colors'
 import '../css/Details.css'
 
 
@@ -46,9 +45,8 @@ export class Details extends Component {
                                     <h2>{item.title}</h2>
                                     <span>TeamSize:{item.capacity}</span>
                                 </div>
-                                {/* <Colors colors={item.colors}/> */}
-                                <p>{item.description}</p>
                                 <p>{item.Newcabin}</p>
+                                <p>{item.description}</p>
                                 <p>{item.content}</p>
                                 <Link to="/cart" className="cart" onClick={() => addCart(item._id)}>
                                     Book Cabin
