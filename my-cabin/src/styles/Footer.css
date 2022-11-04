@@ -1,0 +1,30 @@
+.footer{
+    background-color: #789;;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.footer h5{
+    color: #FEE200;
+}
+
+.footer ul li a{
+    color: #ffff !important;
+}
+
+.footer p{
+    color: #ffff;
+}
+
+.footer button{
+    background-color: #FEE200 !important;
+    color: #789;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 767px) {
+   .offset-1{
+    margin-left: 0px;
+   }
+    
+}

@@ -1,0 +1,11 @@
+.logoutBtn{
+    float: right;
+}
+
+.carousel-indicators .active{
+    background-color: #0E1B44;
+}
+
+.carousel-caption{
+    color: #ffffff;
+}
